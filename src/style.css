@@ -1,0 +1,310 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #F8F8F8;
+
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 100px;
+}
+
+.img-responsive {
+  width: 100%;
+  display: block;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-3c-column-with-first-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.instagram-embeds {
+  margin: 30px 0;
+}
+
+.card {
+  background: white;
+  margin: 30px 0;
+}
+
+.card-header.grid {
+  grid-gap: 0;
+
+}
+
+.card-body {
+  padding: 32px;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
+}
+
+.btn {
+  display: block;
+  color: white;
+  background-color: #D40000;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+}
+
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px 100px;
+}
+
+section.secondary {
+  background: #F8F8F8;
+}
+
+header {
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../images/Panoramicview.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  padding: 200px 0;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1;
+  margin: 30px 0 30px;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header h3 {
+  font: weight 900px;
+  ;
+  font-size: 24px;
+  line-height: 1.5px;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+header a {
+  color: black;
+  background-color: white;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  border-radius: 3px;
+  padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
+}
+
+main {
+  background-color: white;
+}
+
+main h2 {
+  color: #212121;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  opacity: 0.3;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #212121;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+  color: #212121;
+  margin: 0;
+}
+
+
+main p {
+  color: #212121;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: 0.7;
+  text-align: justify;
+  padding-top: 12px;
+}
+
+footer {
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(42, 82, 198, 0.7)), url(../images/Wave.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}
+
+footer h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 0;
+
+}
+
+footer a {
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.9;
+  line-height: 1.5;
+}
+
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer .subscribe-email {
+  width: 70%;
+  font-size: 12px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  box-shadow: none;
+  border: none;
+  padding: 12px 20px;
+}
+
+footer .subscribe-submit {
+  color: white;
+  background-color: rgb(42, 86, 198);
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  box-sizing: border-box;
+  border-radius: 6px;
+  box-shadow: none;
+  border: none;
+  padding: 12px 20px;
+}
+
+@media (max-width: 960px) {
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+
+  section {
+    padding: 30px;
+  }
+
+  main h3 {
+    font-size: 33px;
+  }
+
+  main p {
+    text-align: left;
+  }
+
+  .p-2 {
+    display: none !important;
+  }
+
+  /*main*/
+
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 18px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
+
+  header a {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    padding: 15px 15px;
+    margin-top: 30px;
+    display: inline-block;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
+  }
+}
